@@ -12,21 +12,13 @@ $leng[2][3]="Password";
 
 $leng[3][1]="Entrar";
 $leng[3][2]="Sartu";
-$leng[3][3]="Enter";
 
-$leng[4][1]="¿ Olvidaste la contraseña ?";
-$leng[4][2]="¿ Pasahitza ahaztu duzu ?";
-$leng[4][3]="¿ Forgot your password ?";
-
-$leng[5][1]="NO TIENES CUENTA o DATOS ACCESO ERRONEOS";
-$leng[5][2]="EZ DAUKAZU KONTARIK edo SARBIDE DATA OKERRA";
-$leng[5][3]="YOU DO NOT HAVE AN ACCOUNT";
 
 $leng[6][1]="RECORDAR CONTRASEÑA";
 $leng[6][2]="PASAHITZA GOGORATU";
 $leng[6][3]="REMEMBER PASSWORD";
 
-$leng[7][1]="Recordar";
+$leng[7][1]="Recorghjghjar";
 $leng[7][2]="Gogoratu";
 $leng[7][3]="Remember";
 
@@ -34,6 +26,9 @@ $leng[8][1]="Cancelar";
 $leng[8][2]="Ezeztatu";
 $leng[8][3]="Cancel";
 
+$leng[8][1]="Cancelar";
+$leng[8][2]="Ezeztatu";
+$leng[8][3]="Cancel";
 
 ////////////////////7// AIKASLEAK.index.php ///////////////////////7
 
