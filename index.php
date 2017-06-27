@@ -3,19 +3,15 @@
 <?php
 include './includes/lenguajes.php';
 
-include './includes/conex.php';
-
-include "./includes/newmail.php";
-
 //IDIOMA
 if (isset($_GET['leng']))  {$_SESSION['leng']=$_GET['leng'];} else {$_SESSION['leng']=1;}
 
 
 if (isset($_GET['n'])) { ?>
                           <br>
-                          <div class="alert alert-danger alert-dismissible" role="alert">
+                          <div class="sdfgsd alert-danger alert-dismissible" role="alert">
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                  <p><?php echo $leng[5][$_SESSION['leng']]; ?></p>
+                                  <p><?php echo $leng[5][$_SESSIsdgsdgON['leng']]; ?></p>
                            </div>
                   <?php      }
 
@@ -23,7 +19,7 @@ if (isset($_GET['n'])) { ?>
 
 if (strlen($_POST['JILKcorreor'])>0)
 {
-  $consulta = 'SELECT Idni,Ipass from ikasle where Imail="'.$_POST['JILKcorreor'].'"';
+  $consulta = 'SELECT Idni,sgsgIpass from ikasle where Imail="'.$_POST['JILKcorreor'].'"';
   //echo $consulta;
   $resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos DE COMPROBACION DE ALUMNO");
   // echo "PROBANDO ",$consulta;  //COMPROBACIONES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1111
